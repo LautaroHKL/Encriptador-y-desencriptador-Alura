@@ -5,7 +5,8 @@
 }
 
 body {
-  background-color: lightgray;
+  background-image: url("./Codigo-binario.jpg");
+  background-size: cover;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -17,10 +18,10 @@ body {
 }
 
 .titulo {
+  color: #ffffff;
   padding: 15px;
   width: 30vw;
   margin: auto;
-
 }
 
 .box {
@@ -50,4 +51,23 @@ body {
   padding: 0.5em;
   width: 100%;
   height: 50px;
+}
+
+.btn:hover{
+  transform:scale(1.1);
+  cursor: pointer;
+}
+
+.footer{
+  margin-top: 30%;
+  width: 100%;
+  height: 100%;
+
+}
+
+.parrafo-rodapie{
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  font-size: 30px;
 }
